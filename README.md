@@ -39,7 +39,7 @@ smart-debug/
 
 ### Backend Setup
 
-1. Create the backend directory and files:
+1. Create the backend directory and files: or simply clone the repo
 
 ```bash
 mkdir -p smart-debug/backend
@@ -53,6 +53,7 @@ echo "fastapi==0.95.1
 uvicorn==0.22.0
 pydantic==1.10.7" > requirements.txt
 ```
+Also pip install google-generativeai
 
 3. Install the dependencies:
 
